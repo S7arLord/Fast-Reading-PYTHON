@@ -1,0 +1,13 @@
+[project]
+name = "fast_reading_zbum"
+authors = [{name = "zbum", email = "projecy@email.com"}]
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "requests"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
